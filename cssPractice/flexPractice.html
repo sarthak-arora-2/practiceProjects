@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .box1{
+            background-color: skyblue;
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box1 img{
+            height: 40vh;
+            width: 80vw;
+            /* object-fit: cover; */
+            border: solid;
+        }
+        .box2{
+            background-color: #FF9B17;
+            display: flex;
+            height: 60vh;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .box2 img{
+            height: 225px;
+            width: 400px;
+            border: solid;
+        }
+        .box2 div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        span{
+            color: black;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="box1">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/0*j7sVnq-dE0XWdS12.jpeg" alt="Luffy">
+    </div>
+    <div class="box2">
+        <div class="zoro">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlZa_823rX-kvEjleNowWtAKTvrEYPC7RGzQ&s" alt="">
+            <span>ZORO</span>
+        </div>
+        <div class="sanji">
+            <img src="https://cdn.oneesports.gg/cdn-data/2023/10/Anime_OnePiece_StrawHatPirates_Sanji_PostTimeskip_Wallpaper3.jpg" alt="">
+            <span>SANJI</span>
+        </div>
+        <div class="nami">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_uM0PXR4bcckL_I8DKZj2lq_BQ3ILBEl0ew&s" alt="">
+            <span>NAMI</span>
+        </div>
+    </div>
+</body>
+</html>

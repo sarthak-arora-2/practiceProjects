@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;  
+}
+img{
+  height: 111px;
+  width: 119px;
+  position: absolute;
+  top: 179px;
+  left: 50%;
+  border-radius: 50%;
+  transform: translateX(-50px);
+}
+.container{
+  background-color: slateblue;
+  height: 98px;
+  width: 460px;
+  padding: 70px 20px;
+  border-radius: 10px;
+  color: white;
+
+}
+.content{
+  font-family: cursive;
+  padding: 28px 20px;
+}
+.name{
+  padding: 0px 20px;
+  margin: -10px 0px;
+  font-weight: 100;
+  font-family: cursive;
+}
+
