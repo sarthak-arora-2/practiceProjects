@@ -11,13 +11,14 @@ body {
 
 .box {
     background-color: white;
+    /* max-width: 600px; */
     margin: 100px auto;
     display: flex;
     flex-direction: column;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 3px rgba(176, 172, 172, 0.5);
-    width: 37%;
+    width: 560px;
 }
 
 h1 {
@@ -55,4 +56,17 @@ button {
     font-size: large;
     background-color: #4caf50;
     color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #2e8a33;
+}
+span{
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 5px;
+    /* margin-top: 10px; */
+}
+.block{
+    display: flex;
 }
